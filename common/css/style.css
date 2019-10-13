@@ -4,9 +4,9 @@ p {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* ページヘッド */   
+/* ページヘッド */
 body {
-   margin: 0; 
+   margin: 0;
    padding: 0;
    font-family: 'Noto Sans JP', sans-serif;
 }
@@ -26,7 +26,7 @@ body {
     z-index: 20;
 }
 
-#pageHead .head-container .flexbox {    
+#pageHead .head-container .flexbox {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ body {
     color: #999;
     text-decoration: none;
     padding: 0 3px;
-}           
+}
 
 /* メインビジュアル */
 
@@ -111,7 +111,7 @@ body {
 
 .SNS-icon-List ul li {
     margin-right: 20px;
-    display: inline-block;  
+    display: inline-block;
 }
 
 .SNS-icon-List li:last-child {
@@ -139,7 +139,7 @@ body {
     margin: 40px 0 30px 0;
     background-image: url("../../images/title.png");
     background-repeat: no-repeat;
-}   
+}
 
 .articleDetailBody p {
     font-size: 16px;
@@ -236,6 +236,7 @@ body {
 
 .strongPoint-container ul .upper a {
     text-decoration: none;
+    color: #0C419A;
     display: block;
     padding: 25px 20px;
     height: 70px;
@@ -244,6 +245,7 @@ body {
 
 .strongPoint-container ul .bottom a {
     text-decoration: none;
+    color: #0C419A;
     display: block;
     padding: 15px 0px;
     height: 20px;
@@ -269,17 +271,17 @@ body {
 }
 
 .strongPoint-container .upper a:before {
-    content: url(../../images/angle-right.png);
+    content: url(../../images/angle-right1.png);
     position: absolute;
-    top: 22px;
-    left: -5px;
+    top: 26px;
+    left: 7px;
 }
 
 .strongPoint-container .bottom a:before {
-    content: url(../../images/angle-right.png);
+    content: url(../../images/angle-right1.png);
     position: absolute;
-    top: 14px;
-    left: -5px;
+    top: 15px;
+    left: 7px;
 }
 
 .strongPoint-container a:hover {
@@ -292,18 +294,19 @@ body {
     border-top: solid 2px #333;
     width: 1000px;
     margin: 120px auto;
-}   
+}
 
 .articleDetailFoot h2 {
+    color: #333333;
     font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 38px;
 }
 
 .articleDetailFoot h3 {
-    color: #6E3333;
-    border-top: dotted 1px #FF0000;
+    color: #333333;
+    border-top: dotted 1px #999;
     font-size: 16px;
     padding-top: 35px;
     padding-bottom: 0px;
@@ -326,7 +329,7 @@ body {
     padding: 15px 0;
     float: left;
     position: relative;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .articleDetailFoot .managementPolicy a {
@@ -334,12 +337,13 @@ body {
     text-decoration: none;
     padding-left: 15px;
     display: block;
+    color: #0C419A;
 }
 
 .articleDetailFoot .managementPolicy a:before {
     content: url(../../images/angle-right.png);
-    top: 12px;
-    left: -10px;
+    top: 13px;
+    left: 0px;
     position: absolute;
 }
 
@@ -378,8 +382,8 @@ body {
 
 .articleDetailFoot .strongPoint a:before {
     content: url(../../images/angle-right.png);
-    top: 10px;
-    left: -10px;
+    top: 13px;
+    left: 0px;
     position: absolute;
 }
 
@@ -416,15 +420,15 @@ body {
 
 .articleDetailFoot .companyOverview a:before {
     content: url(../../images/angle-right.png);
-    top: -3px;
-    left: -10px;
+    top: 1px;
+    left: 0px;
     position: absolute;
 }
 
 .articleDetailFoot .base  {
     padding: 0 0 10px 0;
     margin: 0 0 70px 0;
-    border-bottom: dotted 1px #FF0000;
+    border-bottom: dotted 1px #999;
 }
 
 .articleDetailFoot .base:after  {
@@ -451,8 +455,8 @@ body {
 
 .articleDetailFoot .base a:before {
     content: url(../../images/angle-right.png);
-    top: 18px;
-    left: -10px;
+    top: 19px;
+    left: 0px;
     position: absolute;
 }
 
@@ -519,7 +523,7 @@ body {
     content: url(../../images/angle-right.png);
     position: absolute;
     top: 8px;
-    left: -12px;    
+    left: -12px;
 }
 
 .localNavi ul {
@@ -621,6 +625,6 @@ body {
     display: inline-block;
 }
 
-.footer_fix_btn img {
+.footer_fix_btn {
     display: block;
 }
