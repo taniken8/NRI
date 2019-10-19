@@ -26,7 +26,9 @@ body {
     z-index: 20;
 }
 
-#pageHead .head-container .flexbox {
+#pageHead .head-container .head-wrapper,
+#pageHead .head-container .head-SNS
+ {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -501,7 +503,7 @@ body {
 
 .articleDetailFoot .previousPage img {
     position: absolute;
-    top: -7px;
+    top: -5px;
     left: -8px;
 }
 
@@ -549,7 +551,7 @@ body {
     content: url(../../images/angle-right.png);
     position: absolute;
     top: 8px;
-    left: -12px;
+    left: 0px;
 }
 
 .localNavi ul {
@@ -583,7 +585,7 @@ body {
     content: url(../../images/angle-right.png);
     position: absolute;
     top: -5px;
-    left: -12px;
+    left: 0px;
 }
 
 .localNavi li img {
